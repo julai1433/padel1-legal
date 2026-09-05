@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Reina de la Pista</title>
+<meta name="description" content="What Reina de la Pista collects, who sees it, and what stays on your device.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+  :root {
+    --bg: #f6f2e9; --surface: #ffffff; --surface-2: #ece4d1; --border: #ddd0b0;
+    --text: #221c12; --text-secondary: #6b5f45; --accent: #9c6b12; --accent-soft: rgba(156,107,18,0.10);
+    --ok: #2f6b4f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #16130d; --surface: #1e1a12; --surface-2: #241f16; --border: #362e1e;
+      --text: #f0e9d8; --text-secondary: #b3a382; --accent: #e0b74f; --accent-soft: rgba(224,183,79,0.14);
+      --ok: #6fd39c;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #16130d; --surface: #1e1a12; --surface-2: #241f16; --border: #362e1e;
+    --text: #f0e9d8; --text-secondary: #b3a382; --accent: #e0b74f; --accent-soft: rgba(224,183,79,0.14);
+    --ok: #6fd39c;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 700px; margin: 0 auto; padding: 56px 24px 96px; }
+  header { display: flex; flex-direction: column; gap: 10px; padding-bottom: 32px; margin-bottom: 40px; border-bottom: 1px solid var(--border); }
+  .wordmark { font-family: "Fraunces", Georgia, serif; font-weight: 700; font-size: 15px; letter-spacing: 0.12em; color: var(--accent); text-transform: uppercase; }
+  h1 { font-family: "Fraunces", Georgia, serif; font-weight: 700; font-size: clamp(32px, 6vw, 44px); letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px 20px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 12.5px; color: var(--text-secondary); letter-spacing: 0.02em; }
+  .meta b { color: var(--text-secondary); font-weight: 500; }
+  nav.pagejump { display: flex; gap: 18px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 12.5px; margin-top: 6px; }
+  nav.pagejump a { color: var(--text-secondary); }
+  nav.pagejump a:hover { color: var(--accent); }
+  h2 { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 16px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); margin: 0 0 14px; }
+  section { margin-bottom: 40px; }
+  section > p, section > ul { margin: 0 0 14px; color: var(--text); }
+  section > p:last-child, section > ul:last-child { margin-bottom: 0; }
+  p { max-width: 62ch; }
+  ul { padding-left: 1.2em; max-width: 62ch; }
+  li { margin-bottom: 8px; }
+  li:last-child { margin-bottom: 0; }
+  a { color: var(--accent); text-decoration-color: var(--accent-soft); text-underline-offset: 2px; }
+  a:hover { text-decoration-color: var(--accent); }
+  strong { color: var(--text); font-weight: 600; }
+  .table { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; background: var(--surface); }
+  .row { display: grid; grid-template-columns: 1fr 1.3fr 1fr; gap: 16px; padding: 14px 16px; border-bottom: 1px solid var(--border); }
+  .row:last-child { border-bottom: none; }
+  .row.head { background: var(--surface-2); font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-secondary); }
+  .row:not(.head) { font-size: 14.5px; }
+  .row div:first-child { color: var(--text); font-weight: 500; }
+  .row div:nth-child(2) { color: var(--text-secondary); }
+  .tag { display: inline-block; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11px; padding: 3px 8px; border-radius: 5px; background: var(--accent-soft); color: var(--accent); width: fit-content; }
+  .tag.no-track { background: color-mix(in srgb, var(--ok) 14%, transparent); color: var(--ok); }
+  .callout { border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 8px; padding: 16px 18px; background: var(--surface); font-size: 14.5px; color: var(--text-secondary); }
+  .callout strong { color: var(--text); }
+  footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--border); font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 12px; color: var(--text-secondary); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+  @media (max-width: 520px) {
+    .row { grid-template-columns: 1fr; gap: 4px; }
+    .row.head { display: none; }
+    .row:not(.head) div:first-child { font-weight: 600; }
+    .row:not(.head) div:nth-child(2)::before { content: "→ "; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="wordmark">Reina de la Pista</div>
+    <h1>Privacy Policy</h1>
+    <div class="meta">
+      <span><b>Effective</b> September 4, 2026</span>
+      <span><b>App</b> Reina de la Pista (Queen of the Court) — iOS &amp; watchOS</span>
+      <span><b>Bundle ID</b> dev.julio.padel1</span>
+    </div>
+    <nav class="pagejump"><a href="support.html">→ Support &amp; FAQ</a></nav>
+  </header>
+
+  <section>
+    <p>Reina de la Pista is a padel tournament tracker: you enter players, run brackets, and record scores. There's no account and no server — everything you type stays on your iPhone (and Apple Watch, if you use it). This page explains the few places anything ever leaves the device: an optional connection to Apple Health, an optional local sync between nearby phones during a live match, and an optional one-time purchase handled entirely by Apple.</p>
+  </section>
+
+  <section>
+    <h2>What's collected, at a glance</h2>
+    <div class="table">
+      <div class="row head"><div>Data</div><div>Goes to</div><div>Used for</div></div>
+      <div class="row"><div>Player names, scores, brackets, tournament history</div><div>Stored on your device only</div><div><span class="tag no-track">Never leaves device</span></div></div>
+      <div class="row"><div>Workout data (optional)</div><div>Apple Health, on your device</div><div><span class="tag">Career stats in the app</span></div></div>
+      <div class="row"><div>Live scores during a match (optional)</div><div>Other nearby iPhones, direct over Wi-Fi/Bluetooth</div><div><span class="tag">Local tournament sync</span></div></div>
+      <div class="row"><div>Purchase receipt (optional)</div><div>Apple (StoreKit)</div><div><span class="tag">Unlocking Pro features</span></div></div>
+      <div class="row"><div>Anything else</div><div>Nobody</div><div><span class="tag no-track">Not collected</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Players, scores, and tournament history</h2>
+    <p>Every player you add, every score you enter, and every tournament you run is saved locally on your device using iOS's standard on-device storage (UserDefaults). None of it is uploaded anywhere, none of it is visible to us, and there is no account to create or sign in to. Deleting the app deletes this data.</p>
+  </section>
+
+  <section>
+    <h2>Apple Health (optional)</h2>
+    <p>If you grant permission, Reina de la Pista reads your workout and activity data from Apple Health to show career stats (active minutes, calories, workout count) alongside your tournament results, and it can save your padel sessions back to the Health app as workouts. This happens entirely through Apple's HealthKit framework — the app never uploads your health data to a server, and you can revoke access anytime in <strong>iOS Settings → Privacy &amp; Security → Health → Reina de la Pista</strong>. If you never grant Health access, none of this happens and the app works normally without it.</p>
+  </section>
+
+  <section>
+    <h2>Local sync between nearby devices (optional)</h2>
+    <p>During a live tournament, the app can share round results and scores directly between nearby iPhones over the local Wi-Fi network or Bluetooth, so a host device and participant devices stay in sync without anyone re-entering scores by hand. This uses Apple's Multipeer Connectivity framework: your phone advertises and discovers other copies of the app on the same local network, and data travels device-to-device only. It never touches the internet, never passes through a server, and stops the moment you leave the tournament or turn the feature off. You can also just not use it — the app works fully offline on a single device.</p>
+  </section>
+
+  <section>
+    <h2>In-app purchase</h2>
+    <p>An optional one-time purchase unlocks Pro features. It's processed entirely by Apple through StoreKit — Reina de la Pista never sees or stores your card details or billing information. Apple handles billing, receipts, and purchase restoration under <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</p>
+  </section>
+
+  <section>
+    <h2>No ads, no tracking, no third-party analytics</h2>
+    <p>Reina de la Pista has no advertising SDK, no analytics SDK, and no third-party tracking of any kind. Its App Store privacy manifest declares zero tracking and zero collected data types. We don't sell your data — there's no data of yours on our servers to sell, because we don't have a server that stores it.</p>
+  </section>
+
+  <section>
+    <h2>No account, no cloud sync (this version)</h2>
+    <p>This version of the app doesn't require or offer an account, and doesn't sync your tournaments to any cloud service. Everything described above — on-device storage, optional Health access, optional local device-to-device sync — is the complete picture of where your data goes.</p>
+  </section>
+
+  <section>
+    <h2>Children's privacy</h2>
+    <p>Reina de la Pista is listed under the Sports category and is not directed at children under 13. We don't knowingly collect data from children — the app doesn't collect data from anyone, on a server, regardless of age.</p>
+  </section>
+
+  <section>
+    <div class="callout"><strong>Changes to this policy</strong> — if Reina de la Pista's data practices change (for example, adding an account or cloud sync in a future version), this page will be updated and the "Effective" date above will change accordingly.</div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions about this policy or your data: <a href="mailto:julai1433@gmail.com">julai1433@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <span>Reina de la Pista</span>
+    <span>dev.julio.padel1</span>
+  </footer>
+</div>
+</body>
+</html>
